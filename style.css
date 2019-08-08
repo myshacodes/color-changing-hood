@@ -3,9 +3,7 @@ body {
 }
 
 input[type="button"] {
-  width: 120px;
-  padding: 20px;
-  font-size: 20px;
+  width: 90px;
 }
 
 .redbutton {
@@ -18,16 +16,16 @@ input[type="button"] {
   background-color: yellow;
 }
 .greenbutton {
-  background-color: lightgreen;
+  background-color: green;
 }
 .yellowbutton {
   background-color: yellow;
 }
 .bluebutton {
-  background-color: skyblue;
+  background-color: blue;
 }
 .indigobutton {
-  background-color: blue;
+  background-color: indigo;
   color: white;
 }
 .purplebutton {
@@ -35,7 +33,7 @@ input[type="button"] {
   color: white;
 }
 .pinkbutton {
-  background-color: violet;
+  background-color: pink;
 }
 .greybutton {
   background-color: grey;
@@ -49,12 +47,12 @@ input[type="button"] {
 }
 .hood {
   position: absolute;
-  left: 37%;
+  left: 43%;
   top: 30%;
   border-radius: 50%;
-  background-color: lawngreen;
-  width: 200px;
-  height: 200px;
+  background-color: red;
+  width: 197px;
+  height: 197px;
 }
 .ears {
   position: absolute;
@@ -63,4 +61,21 @@ input[type="button"] {
   border-radius: 50%;
   height: 20px;
   width: 20px;
+}
+.face {
+  position: absolute;
+  left: 46%;
+  top: 34%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #fff6e9;
+}
+
+.smile {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
