@@ -1,0 +1,63 @@
+body {
+  background-color: lightgrey;
+}
+
+input[type="button"] {
+  width: 120px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.redbutton {
+  background-color: red;
+}
+.orangebutton {
+  background-color: orange;
+}
+.yellowbutton {
+  background-color: yellow;
+}
+.greenbutton {
+  background-color: lightgreen;
+}
+.yellowbutton {
+  background-color: yellow;
+}
+.bluebutton {
+  background-color: skyblue;
+}
+.indigobutton {
+  background-color: blue;
+  color: white;
+}
+.purplebutton {
+  background-color: purple;
+  color: white;
+}
+.pinkbutton {
+  background-color: violet;
+}
+.greybutton {
+  background-color: grey;
+}
+.blackbutton {
+  background-color: black;
+  color: white;
+}
+.hood {
+  position: absolute;
+  left: 37%;
+  top: 30%;
+  border-radius: 50%;
+  background-color: lawngreen;
+  width: 200px;
+  height: 200px;
+}
+.ears {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
