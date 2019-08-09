@@ -4,6 +4,7 @@ body {
 
 input[type="button"] {
   width: 90px;
+  height: 30px;
 }
 
 .redbutton {
@@ -23,6 +24,7 @@ input[type="button"] {
 }
 .bluebutton {
   background-color: blue;
+  color: white;
 }
 .indigobutton {
   background-color: indigo;
@@ -51,8 +53,8 @@ input[type="button"] {
   top: 30%;
   border-radius: 50%;
   background-color: red;
-  width: 197px;
-  height: 197px;
+  width: 200px;
+  height: 200px;
 }
 .ears {
   position: absolute;
@@ -64,18 +66,34 @@ input[type="button"] {
 }
 .face {
   position: absolute;
-  left: 46%;
-  top: 34%;
-  width: 150px;
-  height: 150px;
+  left: 44%;
+  top: 32%;
   border-radius: 50%;
-  background-color: #fff6e9;
+  width: 12%;
+  height: 20%;
+  background-color: bisque;
 }
-
-.smile {
+.smileleftside {
+  position: absolute;
+  left: 48%;
+  top: 45%;
+  border-bottom-left-radius: 70%;
+  background-color: black;
+  width: 30px;
+  height: 30px;
+}
+.smilerightside {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  border-bottom-right-radius: 70%;
+  background-color: black;
+  width: 30px;
+  height: 30px;
+}
+.righteye {
   position: absolute;
   left: 50%;
   top: 50%;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
+  width: w;
 }
