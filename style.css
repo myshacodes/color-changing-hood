@@ -95,5 +95,6 @@ input[type="button"] {
   position: absolute;
   left: 50%;
   top: 50%;
-  width: w;
+  width: 20%;
+  height: 10%;
 }
